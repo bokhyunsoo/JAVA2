@@ -36,12 +36,12 @@ public class Student {
 		return "Student [studentID=" + studentID + ", studentName=" + studentName + ", grade=" + grade + ", address=" + address + "]";
 	}
 	
-	public static void main(String[] args) {
-		Student studentAhn = new Student();
-//		studentAhn.studentName = "안명수";
-		studentAhn.setStudentName("안명수");
-		
-		System.out.println(studentAhn.getStudentName());
-		System.out.println(studentAhn.studentName);
-	}
+//	public static void main(String[] args) {
+//		Student studentAhn = new Student();
+////		studentAhn.studentName = "안명수";
+//		studentAhn.setStudentName("안명수");
+//		
+//		System.out.println(studentAhn.getStudentName());
+//		System.out.println(studentAhn.studentName);
+//	}
 }
