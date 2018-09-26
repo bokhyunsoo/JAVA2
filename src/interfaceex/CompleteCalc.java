@@ -19,4 +19,8 @@ public class CompleteCalc extends Calculator {
 		System.out.println("Calc 인터페이스를 구현하였습니다.");
 	}
 	
+	@Override
+	public void description() {
+		System.out.println("재작성된 정수 계산기를 구현합니다.");
+	}
 }
