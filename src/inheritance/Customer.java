@@ -23,7 +23,7 @@ public class Customer {
 	
 	public int calcPrice(int price) {
 		this.bonusPoint += price * this.bonusRatio;
-		return this.bonusPoint;
+		return price;
 	}
 	
 	public String showCustomerInfo() {
